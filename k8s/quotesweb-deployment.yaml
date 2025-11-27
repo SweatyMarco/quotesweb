@@ -3,6 +3,7 @@ apiVersion: apps/v1
 metadata:
   name: quotesweb
   labels:
+    app.kubernetes.io/part-of: spring-petclinic
     app: quotesweb
     sandbox: learn-kubernetes
     learn-kubernetes: quotesweb
